@@ -1,0 +1,234 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+nav{
+	width: 100%;
+	height: 75px;
+	background-color: #261e15;
+	position: fixed;
+
+}
+
+li{
+	float: left;
+	display: inline;
+}
+
+#logo{
+	font-size: 24px;
+	padding: 10px 150px 10px 0px;
+	font-family: Roboto Light;
+}
+a:link, a:visited{
+	text-decoration: none;
+	font: 16px Roboto Thin;
+	padding: 16px;
+	color: white;
+	display: block;
+	font-weight: 100;
+	text-align: center;
+}
+a:hover, a.active{
+	color: #ab917b;
+	cursor: pointer;
+}
+
+#wallpaper{
+	display: block;
+	width: 100%;
+	height: 70vh;
+	background: url("../images/main.jpg")  no-repeat;
+	background-size: 100% auto;
+}
+
+.inner1{
+	background-color: rgba(0,0,0,0.7);
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	padding: 30px 0;
+	margin: 0;
+}
+
+.inner{
+	background-color: rgba(0,0,0,0.85);
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	padding: 30px 0;
+	margin: 0;
+}
+
+
+@font-face{
+	font-family: Roboto Thin;
+	src: url('fonts/Roboto-Thin.ttf');
+}
+
+@font-face{
+	font-family: Roboto Light;
+	src: url('fonts/Roboto-Light.ttf');
+}
+
+pre{
+	position: absolute;
+	font: 30px Roboto Light;
+	text-align: center;
+	color: #fff;
+	top: 20%;
+	left: 5%
+}
+
+#title1{
+	width: 100%;
+	height: 75px;
+	background-color: #211a1a;
+	padding: 5px 0 30px 0;
+}
+
+#header{
+	font: 20px Roboto Thin;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#paragraph1{
+	display: block;
+	background: url('../images/paragraph.jpg') no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: auto;
+	margin: -20px 0;
+}
+
+#paragraph1 p{
+	width: 60%;
+	color: #fff;
+	font: 22px Roboto Light;
+	line-height: 30px;
+	margin: 10px 20%;
+	line-height: 40px;
+
+}
+
+#title2{
+	width: 100%;
+	height: 75px;
+	background-color: #f2e6d9;
+	padding: 10px 0;
+	margin-top: 20px; 
+}
+
+#title2 #header{
+	color: #261e15;
+	font: 20px Arial;
+	font-weight: bold;
+}
+
+#history{
+	background-color: #f2e6d9;
+	margin: -20px 0;
+}
+
+#history p, h2{
+	color: #261e15;
+	font: 22px Roboto Light;
+	width: 60%;
+	margin: 10px 20%; 
+	padding: 20px;
+}
+
+#title3{
+	width: 100%;
+	height: 75px;
+	background-color: #dbc9a7;
+	padding: 10px 0;
+	margin-top: 20px;
+}
+
+#title3 #header{
+	color: #261e15;
+	font: 25px Arial;
+}
+
+#sorts{
+	background-color: #dbc9a7;
+	margin: -20px 0;
+	padding: 30px 0;
+}
+
+td{
+	padding: 5px 100px;
+	font: 18px Roboto Light;
+}
+.number{
+	font: 28px Arial;
+	font-weight: bold;
+}
+
+#gradient{
+	background: linear-gradient(to bottom, #5e3e3e, #ba9393);
+	color: #fff;
+	padding: 30px 0;
+}
+
+#gradient h2{
+	color: #fff;
+	font: 26px Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 50px 18%;
+}
+
+#gradient p{
+	font: 20px Roboto Light;
+	color: #fff;
+	width: 60%;
+	margin: 50px 20%;
+	line-height: 30px;
+}
+
+#map p{
+	font: 24px Roboto Light;
+	text-align: center;
+}
+
+#map_img{
+	width: 60%;
+	height: auto;
+	margin: 10px 20%;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 120px;
+	background-color: #261e15;
+	color: #fff;
+	font: 25px Roboto Light;
+}
+
+#company{
+	position: absolute;
+	top: 20px;
+	left: 10%;
+	font-weight: bold;
+}
+
+#tel{
+	position: absolute;
+	top: 20px;
+	left: 60%;
+}
+
+h2, h3{
+	font-weight: bold;
+}

@@ -1,0 +1,121 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	width: 100%;
+	height: 75px;
+	background-color: #261e15;
+	position: fixed;
+}
+
+nav li{
+	float: left;
+	display: inline;
+}
+
+#logo{
+	font-size: 24px;
+	padding: 10px 150px 10px 0px;
+	font-family: Roboto Light;
+}
+a:link, a:visited{
+	text-decoration: none;
+	font: 16px Roboto Thin;
+	padding: 16px;
+	color: white;
+	display: block;
+	font-weight: 100;
+	text-align: center;
+}
+a:hover, a.active{
+	color: #ab917b;
+	cursor: pointer;
+}
+
+@font-face{
+	font-family: Roboto Light;
+	src: url('fonts/Roboto-Light.ttf');
+}
+
+#title{
+	width: 100%;
+	height: 70px;
+	background-color: #422e38;
+	padding: 80px 0 0 0;
+}
+
+#header{
+	font: 24px Roboto Light;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#article{
+	font: 24px Roboto Light;
+	color: #fff;
+	background: url('../images/advices.jpg');
+	background-size: auto;
+	line-height: 40px;
+}
+
+.inner{
+	background-color: rgba(0,0,0,0.7);
+	background-size: 100% 100%;
+	padding: 30px 20%;
+
+}
+
+#methods{
+	background-color: #dbc9a7;
+	font: 20px Roboto Light;
+	padding: 40px;
+	line-height: 30px;
+}
+
+img{
+	height:900px;
+	width: 400px;
+}
+
+#title1{
+	width: 100%;
+	height: 70px;
+	background-color: #dbc9a7;
+	padding: 10px 0;
+}
+
+#title1 #header{
+	font: 24px Arial;
+	color: #261e15;
+	font-weight: bold;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 120px;
+	background-color: #261e15;
+	color: #fff;
+	font: 25px Roboto Light;
+}
+
+#company{
+	position: absolute;
+	top: 20px;
+	left: 10%;
+	font-weight: bold;
+}
+
+#tel{
+	position: absolute;
+	top: 20px;
+	left: 60%;
+}
+
+.video{
+	margin: 10px 25%;
+}
